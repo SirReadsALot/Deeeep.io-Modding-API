@@ -1,4 +1,7 @@
-const { dma } = require("./index")
+const { dmaVersion, dmaAsset } = require("./index")
 
-dma.version()
-
+dmaVersion.version()
+var imgs = [
+    "./assets/player.png" 
+]
+dmaAsset.load(imgs)
